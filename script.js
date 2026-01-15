@@ -62,3 +62,9 @@ if(randomNumber1 > randomNumber2){
 }else{
     document.querySelector("#result").textContent = "Its a drawww!!!!";
 }
+
+// Change from:
+document.querySelector(".img1").setAttribute("src","/images/dice1.png");
+// To:
+document.querySelector(". img1").setAttribute("src","images/dice1.png");
+
