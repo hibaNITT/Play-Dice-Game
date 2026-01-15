@@ -64,7 +64,8 @@ if(randomNumber1 > randomNumber2){
 }
 
 // Change from:
-document.querySelector(".img1").setAttribute("src","/images/dice1.png");
+document.querySelector(".img1").setAttribute("src","images/dice1.png");
 // To:
-document.querySelector(". img1").setAttribute("src","images/dice1.png");
+document.querySelector(". img2").setAttribute("src","images/dice1.png");
+
 
